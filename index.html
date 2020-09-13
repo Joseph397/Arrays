@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+  </head>
+  <body>
+    <script>
+      //Arrays
+      const listUsers = ["Dev Ed", "Jony", "John Snow", "You"];
+
+      //Methods
+      console.log(listUsers[0]); // selects first array item
+      console.log(typeof listUsers); // logs the datatype of const listUsers
+      listUsers.pop() // method pop removes last item from array
+      listUsers.shift() // removes first item from array
+      listUsers.push('new'); // method push adds peramiter to end of array
+      listUsers.unshift('yo yo yo') // adds peramiter to the beginnng of the array
+      
+      
+      console.log(listUsers);
+      console.log(listUsers.length); // returns number if items within listUsers array
+      console.log(listUsers.indexOf('Jony')); // logs index location of Jony in array
+    </script>
+  </body>
+</html>
